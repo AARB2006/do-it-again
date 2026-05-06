@@ -1,0 +1,37 @@
+# Ignore compiled Java files
+*.class
+
+# Ignore build and output directories
+bin/
+out/
+target/
+
+# Ignore sensitive environment variables (The most important part!)
+.env
+
+# Ignore IDE-specific settings
+.settings/
+.project
+.classpath
+.vscode/
+.idea/
+
+# Ignore OS-generated files
+Thumbs.db
+.DS_Store
+
+# Ignore JAR dependencies (keep lib/ untracked if using a build tool later)
+lib/*.jar
+
+# Ignore Java crash/heap dumps
+hs_err_pid*.log
+replay_pid*.log
+
+# Ignore logs
+*.log
+
+# Ignore backup/temp files
+*.bak
+*.tmp
+*.swp
+*~
